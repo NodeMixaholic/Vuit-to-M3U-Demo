@@ -1,5 +1,5 @@
 #!/bin/bash
-stationId = $1
+stationId=$1
 filename="vuit-to-m3u-techdemo_$1.m3uentry"
 
 curl "https://www.vuit.com/api/services/StreamInfo?stationId=$1" > tempiptvlollmao.json

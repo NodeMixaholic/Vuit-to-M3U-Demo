@@ -26,5 +26,5 @@ cat vuit-to-m3u-techdemo_$stationid.m3uentry >> texasStations.m3u
 
 rm vuit-to-m3u-techdemo_*.m3uentry # note that we must to cleanup ourselves! (the library does not do this for us!)
 sleep 1h
-bash ported-code.sh
+bash texas-stations.sh
 ```
